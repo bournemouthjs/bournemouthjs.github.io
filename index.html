@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Bournemouthjs | Home</title>
 	</head>
+	<link href="https://fonts.googleapis.com/css?family=Judson|Quando" rel="stylesheet">
 	<style>
 	* {
 		box-sizing: border-box;
@@ -15,9 +16,10 @@
 	}
 
 	body {
-		font-family: "Open Sans", Helvetica, sans-serif;
+		font-family: "Judson", Helvetica, sans-serif;
 		color: #444;
 		font-size: 1rem;
+		line-height: 1.5;
 		padding: 15px;
 	}
 
@@ -61,12 +63,13 @@
 		font-weight: 600;
 		margin: 0 0 24px 0;
 		padding: 0 0 0 0;
-		color: #555;
+		color: #fff;
+		font-family: "Quando", Helvetica, sans-serif;
 	}
 
 	.hero-sub {
 		font-size: 24px;
-		color: #777;
+		color: #fff;
 		margin: 0 0 0 0;
 		padding: 0 0 0 5px;
 	}
@@ -83,13 +86,13 @@
 		padding: 10px 10px;
 		margin-right: 5px;
 		text-decoration: none;
-		color: #777;
-		font-weight: 600;
+		color: rgba(255,255,255,0.7);
 		transition: all 0.35s;
+		letter-spacing: 1px;
 	}
 
 	.link-list a:hover {
-		color: #089F99;
+		color: #fff;
 	}
 
 	.maintenance-notice {
@@ -97,21 +100,44 @@
 		position: absolute;
 		top: 40px;
 		right: 40px;
-		color: #999;
+		color: rgba(255,255,255,0.5);
 		font-style: italic;
+	}
+
+	.event-details {
+		padding: 50px 0;
+	}
+
+	.event-details-title {
+		font-size: 22px;
+		text-align: center;
+		padding: 18px 0;
+		font-family: "Quando", Helvetica, sans-serif;
+	}
+
+	.event-details-title a {
+
 	}
 	</style>
 	<body class="bg-green">
 		<div class="page-wrap bg-white relative">
-			<div class="maintenance-notice">* This site is absolutely under construction.</div>
-			<div class="container">
-				<div class="hero">
-					<h1 class="hero-text">Bournemouth JS</h1>
-					<p class="hero-sub">A meetup for all things javascript on the sunny coast of Bournemouth.
-						We're quite new so please be sure to check back on this site regularly.</p>
-					<div class="link-list">
-						<a href="https://twitter.com/Bournemouthjs" target="_blank">Twitter</a><a href="https://github.com/bournemouthjs" target="_blank">Github</a>
+			<div class="intro-wrap bg-green">
+				<div class="maintenance-notice">* This site is absolutely under construction.</div>
+				<div class="container">
+					<div class="hero">
+						<h1 class="hero-text">Bournemouth JS</h1>
+						<p class="hero-sub">A meetup for all things javascript on the sunny coast of Bournemouth.
+							We're quite new so please be sure to check back on this site regularly.</p>
+						<div class="link-list">
+							<a href="https://twitter.com/Bournemouthjs" target="_blank">Twitter</a><a href="https://github.com/bournemouthjs" target="_blank">Github</a>
+						</div>
 					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="event-details">
+					<h2 class="event-details-title">Our next event is on 6th Febuary 2017 at <a class="green" href="https://www.google.co.uk/maps/place/Inferno/@50.7231977,-1.8670163,17z/data=!3m1!4b1!4m5!3m4!1s0x4873a1deeb57a4d3:0xc031e826357a7bb3!8m2!3d50.7231977!4d-1.8648223?hl=en" target="_blank">Inferno</a></h2>
+					<div style="width:100%; text-align:left;"><iframe src="//eventbrite.co.uk/tickets-external?eid=31617032395&ref=etckt" frameborder="0" height="275" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="http://www.eventbrite.co.uk/">Powered by Eventbrite</a></div></div>
 				</div>
 			</div>
 		</div>
